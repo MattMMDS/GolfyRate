@@ -1,8 +1,5 @@
 # GolfyRate
 
-GolfyRate
-=========
-
 Origine
 -------
 
