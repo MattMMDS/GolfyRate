@@ -48,11 +48,11 @@ ensuit il doit mettre le lien de l'api google.
 ### Page des golfs
 
 Sur la page des golfs on affiche un photo du golf le nom, sa region, sa
-note, les commentaire qu'il a et l'integration de l'API Google maps.\
+note, les commentaire qu'il a et l'integration de l'API Google maps.
 
 Choses Modifiable
 -----------------
 
 Si je devait modifier des choses j'integregrai un peu de javascript pour 
-finaliser quelque fonctionalité.\ J'ameliorerai le front end que je ne trouve
-pas excellent.\
+finaliser quelque fonctionalité. J'ameliorerai le front end que je ne trouve
+pas excellent.
