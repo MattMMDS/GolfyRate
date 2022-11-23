@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 150vh;
+    Background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("/Users/gael/Desktop/cba/images/fond1.png");
+
+}
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+.header{
+
+    padding-left: 1%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    height:5%;
+    display:flex;
+    align-items:center;
+}
+nav ul li{
+    position: sticky;
+    font-family: 'Playfair Display', serif;
+    flex:1;
+    list-style:none;
+    display:inline-block;
+    text-decoration:none;
+    color:#fff;
+    //mettre la police et se taille
+}
+nav ul li a{
+    position: sticky;
+    text-decoration:none;
+    color:#fff;
+
+    //mettre la police et se taille
+}
+.re{
+    padding-left:2400%;
+}
+.home{
+    padding-left:50%;
+}
+.co{
+    padding-left:2100%;
+}
+.in{
+    padding-left:2200%;
+}
+.logo {
+    width:25px;
+    length:25px;
+    cursor:pointer;
+}
+.lignes{
+    display:flex;
+    height:90%;
+    width:100%;
+    margin:0 10% 100% 0;
+    padding:50px 10% 25%  15%;
+}
+.espace{
+    display:block;
+    padding-left:20%;
+    margin-right:50%;
+    width:750px;
+    height:30%;
+}
+.ligne1{
+    display:block;
+    position:inherit;
+}
+.Presentation{
+    display:block;
+    padding:0.5% 5% 5% 5%;
+    box-sizing: border-box;
+    border-radius:30px;
+    height:100%;
+    width: 100%;
+    background-color:#55B065;
+    color:#fff;
+}
+.Presentation h1{
+    text-align:center;
+    padding:20px 0px 20px 0px;
+  }
+.Presentation p{
+    display:block;
+    padding:8px;
+}
+.espace2{
+    display:block;
+    position:relative;
+    width:1500px;
+    top:120px;
+    left:-450px;
+
+}
+.ligne2{
+    position:inherit;
+    width:100%;
+}
+div.Golf{
+  text-align: center;
+    display:block;
+    margin: 0 auto;
+    padding:0.5% 5% 5% 5%;
+    box-sizing: border-box;
+    border-radius:30px;
+    height:48%;
+    width: 60%;
+    background-color:#0D7415;
+    color:#fff;
+}
+div.Golf img{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+}
+form.Golf h2{
+    text-align:center;
+    padding:20px 0px 20px 0px;
+}
+form.Golf form{
+display: inline-block;
+}
+
+.figure {
+    display:inline-block;
+    background-color: #FFF;
+    background-size: cover;
+    background-image:center;
+    border-radius: 25%;
+    transition: all 100ms ease-out;
+}
+figure:hover {
+    box-shadow: 0 16px 16px -4px rgba(0, 0, 0, 0.3);
+    transform: scale(1.02);
+}
+figure:after {
+    content: '';
+    padding-bottom: 100%;
+    display: block;
+}
+figure figcaption {
+    margin: 1rem;
+    color: #FFF;
+    font-size:20px;
+    position:relative;
+    top:300px;
+    text-align:center;
+}
+
+div.conn{
+    text-align: center;
+    display:block;
+    padding:0.5% 5% 5% 5%;
+    box-sizing: border-box;
+    border-radius:30px;
+    height:18%;
+    width: 100%;
+    background-color:#55B065;
+    color:#fff;
+}
+div.conn h2{
+    text-align:center;
+    padding:20px 0px 20px 0px;
+}
+div.conn form{
+display: inline-block;
+}
+
+div.profil{
+  text-align: center;
+    display:block;
+    padding:0.5% 5% 5% 5%;
+    box-sizing: border-box;
+    border-radius:30px;
+    height:18%;
+    width: 100%;
+    background-color:#55B065;
+    overflow:scroll;
+    color:#fff;
+}
+div.profil h2{
+    text-align:center;
+    padding:20px 0px 20px 0px;
+}
+div.profil form{
+display: inline-block;
+}
+
+div.avis{
+  text-align: center;
+    display:block;
+    padding:0.5% 5% 5% 5%;
+    box-sizing: border-box;
+    border-radius:30px;
+    height:45%;
+    width: 100%;
+    background-color:#55B065;
+    overflow:scroll;
+    color:#fff;
+}
+div.avis h2{
+    text-align:center;
+    padding:20px 0px 20px 0px;
+}
+div.avis form{
+display: inline-block;
+}
+
+div.note{
+  text-align: center;
+    display:block;
+    padding:0.5% 5% 5% 5%;
+    box-sizing: border-box;
+    border-radius:30px;
+    height:5%;
+    width: 100%;
+    background-color:#0D7415;
+    overflow:scroll;
+    color:#fff;
+}
+
+div.profiledi{
+  text-align: center;
+    display:block;
+    padding:0.5% 5% 5% 5%;
+    box-sizing: border-box;
+    border-radius:30px;
+    height:22%;
+    width: 100%;
+    background-color:#55B065;
+    color:#fff;
+}
+div.profiledi h2{
+    text-align:center;
+    padding:20px 0px 20px 0px;
+}
+div.profiledi form{
+display: inline-block;
+}
+
+div.insc{
+  text-align: center;
+    display:block;
+    padding:0.5% 5% 5% 5%;
+    box-sizing: border-box;
+    border-radius:30px;
+    height:25%;
+    width: 100%;
+    background-color:#55B065;
+    color:#fff;
+}
+div.insc h2{
+    text-align:center;
+    padding:20px 0px 20px 0px;
+}
+div.insc form{
+display: inline-block;
+}
+
+div.report{
+  text-align: center;
+    display:block;
+    padding:0.5% 5% 5% 5%;
+    box-sizing: border-box;
+    border-radius:30px;
+    height:20%;
+    width: 100%;
+    background-color:#0D7415;
+    color:#fff;
+}
+div.report h2{
+    text-align:center;
+    padding:20px 0px 20px 0px;
+}
+div.report form{
+display: inline-block;
+}
+
+div.info{
+  text-align: center;
+    display:block;
+    padding:0.5% 5% 5% 5%;
+    box-sizing: border-box;
+    border-radius:30px;
+    height:100%;
+    width: 100%;
+    background-color:#55B065;
+    color:#fff;
+}
+div.info h2{
+    text-align:center;
+    padding:20px 0px 20px 0px;
+}
+div.info form{
+display: inline-block;
+}
+
+div.option {
+text-align: center;
+    display:block;
+    margin: 0 auto;
+    padding:0.5% 5% 5% 5%;
+    box-sizing: border-box;
+    border-radius:30px;
+    height:7%;
+    width: 35%;
+    background-color:#0D7415;
+    color:#fff;
+}
+div.option h2{
+    text-align:center;
+    padding:20px 0px 20px 0px;
+}
+div.reportaff{
+  text-align: center;
+    display:block;
+    margin: 0 auto;
+    padding:0.5% 5% 5% 5%;
+    box-sizing: border-box;
+    border-radius:30px;
+    height:9%;
+    width: 60%;
+    background-color:#0D7415;
+    color:#fff;
+}
+div.reportaff h2{
+    text-align:center;
+    padding:20px 0px 20px 0px;
+}
+
+
+div.listeuser{
+  text-align: center;
+    display:block;
+    margin: 0 auto;
+    padding:0.5% 5% 5% 5%;
+    box-sizing: border-box;
+    border-radius:30px;
+    height:29%;
+    width: 60%;
+    overflow:scroll;
+    background-color:#0D7415;
+    color:#fff;
+}
+div.listeuser h2{
+    text-align:center;
+    padding:20px 0px 20px 0px;
+}
+div.listeuser form{
+display: inline-block;
+}
+
+form.rech{
+  text-align: center;
+    display:block;
+    margin: 0 auto;
+    padding:0.5% 5% 5% 5%;
+    box-sizing: border-box;
+    border-radius:30px;
+    height:5%;
+    width: 50%;
+    background-color:#0D7415;
+    color:#fff;
+}
+form.rech h2{
+    text-align:center;
+    padding:20px 0px 20px 0px;
+}
+form.rech form{
+display: inline-block;
+}
+form.rech input[type=text] {
+  transition: width 0.8s ease-in-out;
+  border: none;
+  border-bottom: 3px solid #55B065;
+  width: 15%;
+}
+
+form.rech input[type=text]:focus {
+  width: 35%;
+  border: 3px solid #55B065;
+}
+
+div.res{
+  text-align: center;
+    display:block;
+    margin: 0 auto;
+    padding:0.5% 5% 5% 5%;
+    box-sizing: border-box;
+    border-radius:30px;
+    height:100%;
+    width: 95%;
+    overflow:scroll;
+    background-color:#55B065;
+    color:#fff;
+}
+
+div.moy{
+  margin: 0 auto;
+  text-align: center;
+  display:block;
+  padding:0.5% 5% 5% 5%;
+  box-sizing: border-box;
+  border-radius:10px;
+  height:5%;
+  width: 5%;
+  background-color:#55B065;
+}
+
+div.ajoutGolf{
+  margin: 0 auto;
+  text-align: center;
+  display:block;
+  padding:0.5% 5% 5% 5%;
+  box-sizing: border-box;
+  border-radius:10px;
+  height:5%;
+  width: 50%;
+  background-color:#0D7415;
+}
